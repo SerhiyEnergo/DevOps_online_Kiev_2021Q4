@@ -1,0 +1,29 @@
+9b44bd0 (HEAD -> master, origin/styles, origin/master, styles) HEAD@{0}: merge styles: Fast-forward
+788902b (origin/images, images) HEAD@{1}: merge images: Fast-forward
+4df95fc HEAD@{2}: checkout: moving from styles to master
+9b44bd0 (HEAD -> master, origin/styles, origin/master, styles) HEAD@{3}: commit: change file INDEX in branch styles
+9470960 HEAD@{4}: commit: new date style for file index.html
+d0d2623 HEAD@{5}: checkout: moving from images to styles
+788902b (origin/images, images) HEAD@{6}: checkout: moving from styles to images
+d0d2623 HEAD@{7}: commit: new file with styles source inside it
+788902b (origin/images, images) HEAD@{8}: checkout: moving from images to styles
+788902b (origin/images, images) HEAD@{9}: checkout: moving from styles to images
+6393699 HEAD@{10}: checkout: moving from images to styles
+788902b (origin/images, images) HEAD@{11}: commit: new data in file
+65283ff HEAD@{12}: checkout: moving from styles to images
+6393699 HEAD@{13}: checkout: moving from images to styles
+65283ff HEAD@{14}: commit: change index.html with code branch images
+d4dddc4 HEAD@{15}: checkout: moving from styles to images
+6393699 HEAD@{16}: reset: moving to HEAD^
+3a3d095 HEAD@{17}: commit: change index.html with code
+6393699 HEAD@{18}: checkout: moving from images to styles
+d4dddc4 HEAD@{19}: commit: new file for images branches
+6393699 HEAD@{20}: commit: new folder
+672ab81 HEAD@{21}: commit: new file
+4df95fc HEAD@{22}: checkout: moving from master to images
+4df95fc HEAD@{23}: checkout: moving from images to master
+4df95fc HEAD@{24}: checkout: moving from master to images
+4df95fc HEAD@{25}: commit: change folder
+32220c1 HEAD@{26}: Branch: renamed refs/heads/main to refs/heads/master
+32220c1 HEAD@{28}: commit: change name folder and create new file
+9cd9b4a (origin/main, origin/HEAD) HEAD@{29}: clone: from git@github.com:SerhiyEnergo/DevOps_online_Kiev_2021Q4.git
