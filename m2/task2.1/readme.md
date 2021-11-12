@@ -24,3 +24,19 @@ use Host key and keyboard shortcuts, mouse capture.
 
 
 Create folder m2/task2.1 commit and push on GITHub
+PART 3. WORK WITH VAGRANT
+
+1 Download Vagrand and install on the workplace.
+
+2. Run powershell and create a folder student_serhiy.
+
+3. Initialize the environment with the default Vagrant box:
+   init hashicorp/precise64
+
+4. Run vagrant up.
+
+5. Create the Path variable: VAGRANT_HOME 'C:\HashiCorp'
+
+6. Connect to the VM using the program PuTTY using SSH, IP address and port listed above (127.0.0.1:2222). Create pritekey for SHH
+
+7.Record the date and time by executing the date command.
