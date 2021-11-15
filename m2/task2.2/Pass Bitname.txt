@@ -1,0 +1,21 @@
+cat $HOME/bitnami_application_password
+Pass   NE0lPGtPk8nX
+
+http://3.65.182.30/wp-login.php
+
+новый IP 3.67.31.10 static
+
+регистарция домена nic.ua
+
++380976678172
+skladgeonadr@gmail.com
+WSFQS9E3-NIC
+Пароль Dok14333225P4*c
+
+mayDommain - SITE "mydevopssite.pp.ua" jn NIC.UA
+
+nc servers
+ns-50.awsdns-06.com
+ns-523.awsdns-01.net
+ns-1516.awsdns-61.org
+ns-2044.awsdns-63.co.uk
