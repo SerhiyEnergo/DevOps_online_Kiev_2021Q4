@@ -60,13 +60,57 @@ GRANT CREATE, ALTER, SELECT, DELETE, DROP, INSERT, UPDATE, REFERENCES, RELOAD on
 
 8.Connect to the database as a new users and verify that the privileges allow or deny certain actions.
 
+  Petrov have a rights CREATE, ALTER
 mysql -u petrov -p 
 use comp
 SELECT * FROM mark used;
 CREATE TABLE testverify (id integer auto_increment Primary Key, mark VARCHAR (10), year YEAR, user VARCHAR (10));
 SHOW TABLES;
+quit
 
+	Ivanov have a rights SELECT, DELETE, DROP
 mysql -u ivanov -p 
 use comp
-DELETE FROM used where id=1; 
+DELETE FROM used where id=6; 
+ALTER TABLE used ADD OS varchar(25);
+SHOW columns FROM used;
+SELECT * FROM used;
+quit
+
+	Sedorov have all 
+mysql -u sedorov -p 
+use comp
+ALTER TABLE used ADD color varchar(25); 
+SHOW columns FROM used;
+SELECT * FROM used;
+UPDATE used SET color = 'blue' where id=2;
+INSERT INTO used (mark, year, user) values ('MSI', '2012', 'Golovnuy');
+quit
+
+9. Selection from the main table DB MySQL
+
+mysql -u root -p
+use mysql
+SELECT user, authentication_string, host, plugin from mysql.user;
+SHOW tables;
+quit
+
+	PART2
+
+1. Make backup of database.
+
+mysqldump -u root -p comp > /home/serhiy/comp_bd.sql
+mysql -u root -p
+drop table comp.buy;
+show use buy;
+SHOW TABLES;
+quit
+
+mysql -u root -p comp < /home/serhiy/comp_bd.sql
+mysql -u root -p
+use comp
+SHOW TABLES;
+SELECT * FROM buy;
+quit
+
 
