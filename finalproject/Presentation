@@ -4,6 +4,7 @@
 4.	The goal is to put a chain of events for code development and fast delivery of code to the consumer.
 5.	Task:
       -	Fork spring boot application “Petclinic” from developer github to my github.
+            >  https://github.com/SerhiyEnergo/DevOps_online_Kiev_2021Q4.git
       -	Create Jenkins server on AWS for build, tested code and push to the deployment server.
       -	Create Pipeline build for testing Maven framework and push result on webserver with tomcat apache. Install docker in this instance for used image maven.
       -	Create webserver via Terraform for launch application Petclinic. Successful version to keep on github.
