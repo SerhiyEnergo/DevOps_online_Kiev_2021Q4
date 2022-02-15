@@ -1,0 +1,9 @@
+1.	Topic 	Final project “Continues integration / continues deployment Spring Boot Petclinic Application”
+2.	Motivation. When study various tools for DevOps, I want apply in my job.
+3.	Relevance. Many project build now in cloud infrastructure. The trend continues in big steps.
+4.	The goal is to put a chain of events for code development and fast delivery of code to the consumer.
+5.	Task:
+      -	Fork spring boot application “Petclinic” from developer github to my github.
+      -	Create Jenkins server on AWS for build, tested code and push to the deployment server.
+      -	Create Pipeline build for testing Maven framework and push result on webserver with tomcat apache. Install docker in this instance for used image maven.
+      -	Create webserver via Terraform for launch application Petclinic. Successful version to keep on github.
